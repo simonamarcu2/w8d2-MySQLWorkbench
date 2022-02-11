@@ -1,0 +1,28 @@
+dbms,TABLE_SCHEMA,TABLE_NAME,COLUMN_NAME,ORDINAL_POSITION,DATA_TYPE,CHARACTER_MAXIMUM_LENGTH,CONSTRAINT_TYPE,REFERENCED_TABLE_SCHEMA,REFERENCED_TABLE_NAME,REFERENCED_COLUMN_NAME
+mysql,bamg2palaifhbvbrl0lp,movies,Film_Id,1,int,NULL,"PRIMARY KEY",NULL,NULL,NULL
+mysql,bamg2palaifhbvbrl0lp,movies,Movie_Title,2,varchar,255,NULL,NULL,NULL,NULL
+mysql,bamg2palaifhbvbrl0lp,movies,Year,3,int,NULL,NULL,NULL,NULL,NULL
+mysql,bamg2palaifhbvbrl0lp,movies,Rating,4,int,NULL,NULL,NULL,NULL,NULL
+mysql,bamg2palaifhbvbrl0lp,actors,actor_id,1,int,NULL,NULL,NULL,NULL,NULL
+mysql,bamg2palaifhbvbrl0lp,actors,actor_name,2,varchar,255,NULL,NULL,NULL,NULL
+mysql,bamg2palaifhbvbrl0lp,actors,film_id,3,int,NULL,"PRIMARY KEY",NULL,NULL,NULL
+mysql,bamg2palaifhbvbrl0lp,employee_detail,employee_id,1,int,NULL,NULL,NULL,NULL,NULL
+mysql,bamg2palaifhbvbrl0lp,employee_detail,name,2,varchar,255,NULL,NULL,NULL,NULL
+mysql,bamg2palaifhbvbrl0lp,employee_detail,date_of_birth,3,int,NULL,NULL,NULL,NULL,NULL
+mysql,bamg2palaifhbvbrl0lp,employee_detail,gender,4,varchar,1,NULL,NULL,NULL,NULL
+mysql,bamg2palaifhbvbrl0lp,laptop_detail,laptop_id,1,int,NULL,NULL,NULL,NULL,NULL
+mysql,bamg2palaifhbvbrl0lp,laptop_detail,os,2,varchar,255,NULL,NULL,NULL,NULL
+mysql,bamg2palaifhbvbrl0lp,laptop_detail,date_of_manufacture,3,int,NULL,NULL,NULL,NULL,NULL
+mysql,bamg2palaifhbvbrl0lp,jobs_history,employee_id,1,int,NULL,NULL,NULL,NULL,NULL
+mysql,bamg2palaifhbvbrl0lp,jobs_history,job_title,2,varchar,255,NULL,NULL,NULL,NULL
+mysql,bamg2palaifhbvbrl0lp,jobs_history,date_start,3,int,NULL,NULL,NULL,NULL,NULL
+mysql,bamg2palaifhbvbrl0lp,jobs_history,date_end,4,int,NULL,NULL,NULL,NULL,NULL
+mysql,bamg2palaifhbvbrl0lp,current_job_detail,employee_id,1,int,NULL,NULL,NULL,NULL,NULL
+mysql,bamg2palaifhbvbrl0lp,current_job_detail,job_title,2,varchar,255,NULL,NULL,NULL,NULL
+mysql,bamg2palaifhbvbrl0lp,current_job_detail,salary,3,int,NULL,NULL,NULL,NULL,NULL
+mysql,bamg2palaifhbvbrl0lp,current_job_detail,laptop_id,4,int,NULL,NULL,NULL,NULL,NULL
+mysql,bamg2palaifhbvbrl0lp,PrimeVideos,id,1,int,NULL,NULL,NULL,NULL,NULL
+mysql,bamg2palaifhbvbrl0lp,PrimeVideos,name,2,varchar,255,NULL,NULL,NULL,NULL
+mysql,bamg2palaifhbvbrl0lp,PrimeVideos,actor,3,varchar,255,NULL,NULL,NULL,NULL
+mysql,bamg2palaifhbvbrl0lp,PrimeVideos,createdAt,4,datetime,NULL,NULL,NULL,NULL,NULL
+mysql,bamg2palaifhbvbrl0lp,PrimeVideos,updatedAt,5,datetime,NULL,NULL,NULL,NULL,NULL
